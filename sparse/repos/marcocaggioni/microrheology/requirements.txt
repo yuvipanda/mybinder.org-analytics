@@ -1,0 +1,5 @@
+pymongo
+pims
+trackpy
+pytube
+moviepy

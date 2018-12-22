@@ -1,0 +1,4 @@
+numpy
+plotly
+pandas
+hs_restclient

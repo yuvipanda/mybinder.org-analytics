@@ -1,0 +1,11 @@
+numpy
+ipywidgets
+nbinteract
+pandas
+matplotlib
+ipywidgets
+jupyter_dashboards
+jupyter_dashboards_bundlers
+termcolor
+plotly
+watson_developer_cloud 

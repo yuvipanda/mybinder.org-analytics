@@ -1,0 +1,5 @@
+install.packages("tidyverse")
+install.packages("skimr")
+install.packages("ggvis")
+install.packages("rmarkdown")
+install.packages('leaflet')

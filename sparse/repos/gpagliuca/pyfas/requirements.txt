@@ -1,0 +1,7 @@
+sphinx<1.6
+openpyxl
+jupyter>=1.0.0
+pyfas>=0.1.0
+ipython>=4.0
+nbsphinx>=0.2
+pandas

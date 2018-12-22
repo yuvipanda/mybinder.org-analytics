@@ -1,0 +1,15 @@
+numpy<=1.14.5,>1.13.3
+pandas
+pandas_datareader
+matplotlib
+scikit-learn
+keras
+tensorflow
+int_date
+requests
+unidecode
+simplejson
+beautifulsoup4
+#seaborn
+#multiprocessing
+

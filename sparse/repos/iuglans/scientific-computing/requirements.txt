@@ -1,0 +1,5 @@
+bokeh==0.13.0
+holoviews==1.10.7
+numpy==1.15.1
+scipy==1.1.0
+matplotlib

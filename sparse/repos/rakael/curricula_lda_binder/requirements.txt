@@ -1,0 +1,4 @@
+pyLDAvis==2.1.2
+scikit-learn==0.19.1
+stop-words==2015.2.23.1
+XlsxWriter==1.0.5

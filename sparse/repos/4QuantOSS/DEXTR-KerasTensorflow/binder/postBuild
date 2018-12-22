@@ -1,0 +1,5 @@
+cd models
+sh download_dextr_model.sh
+cd ..
+mkdir $HOME/.jupyter
+echo "c.NotebookApp.iopub_data_rate_limit=1e22" >> $HOME/.jupyter/jupyter_notebook_config.py

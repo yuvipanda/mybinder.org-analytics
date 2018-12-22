@@ -1,0 +1,6 @@
+name: pc05
+dependencies:
+    - numpy
+    - scipy
+    - bokeh
+    - gcc

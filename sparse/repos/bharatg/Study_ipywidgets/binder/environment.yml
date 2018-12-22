@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scikit-image
+  - scipy
+  - bqplot
+  - pythreejs
+  - ipyvolume
+  - gdal
+  - krb5
+  - ipyleaflet
+  - tensorflow

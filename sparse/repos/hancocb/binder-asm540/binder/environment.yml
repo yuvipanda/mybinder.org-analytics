@@ -1,0 +1,13 @@
+name: gis-python-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - geopandas
+  - rasterio
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery

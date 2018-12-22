@@ -1,0 +1,9 @@
+chaospy
+setuptools
+numpy
+sympy
+matplotlib==2
+pandas
+IPython
+statsmodels
+xlwt

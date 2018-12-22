@@ -1,0 +1,17 @@
+pandas
+numpy
+pint
+plotly
+cufflinks
+quilt
+jupyterlab
+jupyterlab_launcher
+traitlets
+vdom
+certifi
+ipywidgets
+matplotlib
+geopandas
+python-dateutil
+scipy
+environs

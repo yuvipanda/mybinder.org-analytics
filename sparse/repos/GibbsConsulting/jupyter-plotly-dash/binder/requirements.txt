@@ -1,0 +1,2 @@
+jupyter-plotly-dash
+tornado >=5

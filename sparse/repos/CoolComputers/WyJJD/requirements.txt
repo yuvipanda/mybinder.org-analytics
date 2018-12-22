@@ -1,0 +1,6 @@
+ipywidgets
+IPython
+pivottablejs
+matplotlib
+numpy
+pandas

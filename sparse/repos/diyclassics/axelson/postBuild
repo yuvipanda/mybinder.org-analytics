@@ -1,0 +1,2 @@
+python -m spacy download en 
+python install-ll.py

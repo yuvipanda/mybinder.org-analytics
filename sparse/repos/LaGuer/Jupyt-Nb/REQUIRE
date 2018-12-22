@@ -1,0 +1,11 @@
+PyPlot
+PyCall
+Gadfly
+RDatasets
+Measurements
+Cosmology
+SpecialFunctions
+Unitful
+PhysicalConstant
+# git+https://github.com/LaGuer/PhysicalConstant.jl.git#egg=PhysicalConstant[complete]
+# PhysConsts

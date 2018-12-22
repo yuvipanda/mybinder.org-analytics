@@ -1,0 +1,16 @@
+name: cssproject
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip:
+    - matplotlib==2.0.2
+    - numpy==1.13.1
+    - numpydoc==0.6.0
+    - pandas==0.20.2
+    - pandocfilters==1.4.1
+    - python-dateutil==2.6.0
+    - scikit-image==0.13.0
+    - scikit-learn==0.18.2
+    - scipy==0.19.1
+    - seaborn==0.7.1

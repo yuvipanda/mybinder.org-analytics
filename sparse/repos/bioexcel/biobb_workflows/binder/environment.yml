@@ -1,0 +1,14 @@
+name: biobb_workflows
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - biobb_common
+  - biobb_io
+  - biobb_model
+  - biobb_md
+  - nglview
+  - conda
+# Gromacs instead from base image https://hub.docker.com/r/gromacs/gromacs/tags/
+# as that supports hardware-specific optimizations
+#  - gromacs

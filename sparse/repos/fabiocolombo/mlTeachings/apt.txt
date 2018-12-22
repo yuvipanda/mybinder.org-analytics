@@ -1,0 +1,5 @@
+virtualenv
+python-pip
+python-virtualenv
+python-dev
+python3-dev

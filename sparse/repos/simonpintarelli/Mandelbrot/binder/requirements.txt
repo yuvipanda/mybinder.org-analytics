@@ -1,0 +1,6 @@
+matplotlib
+numpy
+PyQt5
+numba
+ipython
+jupyterlab_launcher>=0.5.0

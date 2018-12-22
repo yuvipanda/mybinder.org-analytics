@@ -1,0 +1,9 @@
+ipywidgets
+requests
+pandas
+html2text==2018.1.9
+numpy
+toyplot==0.17.0
+folium==0.6.0
+geopandas==0.4.0
+qgrid==1.1.1

@@ -1,0 +1,6 @@
+healpy
+mocpy
+astropy
+PyVO
+Astroquery
+

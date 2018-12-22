@@ -1,0 +1,4 @@
+# python -m spacy download en_core_web_lg
+wget https://www.ida.liu.se/~TDDE16/commons/en_core_web_lg-preprocessed.vocab.tar.bz2
+tar xjf en_core_web_lg-preprocessed.vocab.tar.bz2
+rm -f en_core_web_lg-preprocessed.vocab.tar.bz2

@@ -1,0 +1,15 @@
+nose
+nbformat
+nbconvert
+jupyter
+notebook
+matplotlib
+pandas
+numpy
+scipy
+packaging
+sparsegrad
+tqdm
+sphinxcontrib-bibtex
+sphinx-automodapi
+ipywidgets

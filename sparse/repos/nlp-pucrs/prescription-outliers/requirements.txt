@@ -1,0 +1,7 @@
+pandas
+sklearn
+networkx
+matplotlib
+numpy
+scipy
+joblib

@@ -1,0 +1,16 @@
+name: pubs
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=2.7
+  - numpy
+  - scipy
+  - matplotlib
+  - netcdf4
+  - seaborn
+  - pandas
+  - terminaltables
+  - jupyter
+  - pydap
+  - basemap

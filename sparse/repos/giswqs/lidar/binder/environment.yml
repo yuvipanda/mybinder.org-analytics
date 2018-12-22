@@ -1,0 +1,19 @@
+name: lidar-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - scikit-image
+  - numpy
+  - matplotlib
+  - scipy
+  - gdal
+  - imageio
+  - pip:
+    - pygdal
+    - lidar
+    - tifffile
+    - requests
+    - pygis
+
+

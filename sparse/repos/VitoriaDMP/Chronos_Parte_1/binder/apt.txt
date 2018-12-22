@@ -1,0 +1,5 @@
+mosquitto
+mosquitto-clients  
+htop
+vim
+ssh

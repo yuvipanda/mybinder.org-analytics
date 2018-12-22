@@ -1,0 +1,6 @@
+appmode
+folium
+geopandas
+IPython
+jupyter_contrib_nbextensions
+pandas

@@ -1,0 +1,39 @@
+# to install bash kernel
+python -m bash_kernel.install
+# to install pup and gron
+go get github.com/ericchiang/pup
+go get -u github.com/tomnomnom/gron
+# to create a folder that is in the PATH
+mkdir -p ~/.local/bin
+# to install mapshaper and xml2json in ~/.local/bin
+npm install mapshaper --prefix ~/.local/bin
+npm install xml2json-command --prefix ~/.local/bin
+# to install fd
+cd ~/.local/bin
+curl -OsL "https://github.com/sharkdp/fd/releases/download/v7.0.0/fd-v7.0.0-x86_64-unknown-linux-gnu.tar.gz"
+tar -xzvf fd-v7.0.0-x86_64-unknown-linux-gnu.tar.gz
+chmod +x ~/.local/bin/fd-v7.0.0-x86_64-unknown-linux-gnu/fd
+# install gron
+cd ~/.local/bin
+wget https://github.com/tomnomnom/gron/releases/download/v0.6.0/gron-linux-amd64-0.6.0.tgz
+tar -xzvf gron-linux-amd64-0.6.0.tgz
+chmod +x ./gron
+rm ./gron-linux-amd64-0.6.0.tgz
+# install mlr
+cd ~/.local/bin
+wget https://github.com/johnkerl/miller/releases/download/5.4.0/mlr.linux.x86_64
+mv ./mlr.linux.x86_64 ./mlr
+chmod +x ./mlr
+# install scrape-cli
+cd ~/.local/bin
+wget https://github.com/aborruso/scrape-cli/releases/download/v1.0/scrape
+chmod +x ./scrape
+# to create alias for pup, mapshaper, xml2json, fd ("~/.local/bin" is in the PATH)
+cd ~/.local/bin
+ln -s ~/.local/bin/node_modules/mapshaper/bin/mapshaper mapshaper
+ln -s ~/.local/bin/node_modules/.bin/xml2json xml2json
+ln -s ~/go/bin/pup pup
+ln -s ~/.local/bin/fd-v7.0.0-x86_64-unknown-linux-gnu/fd fd
+# to use locate in shell to search in what it's just installerd use "mylocate filename"
+updatedb --output=$HOME/.locate.db
+echo 'alias mylocate="locate --database=$HOME/.locate.db"' >> ~/.bashrc

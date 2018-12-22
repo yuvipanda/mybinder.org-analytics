@@ -1,0 +1,5 @@
+bqplot
+ipywidgets
+matplotlib
+numpy
+pandas

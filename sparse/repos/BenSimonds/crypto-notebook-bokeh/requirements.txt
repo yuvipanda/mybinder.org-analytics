@@ -1,0 +1,4 @@
+pandas>=0.20.1
+numpy>=1.12.1
+requests>=2.14.2
+bokeh==0.12.7

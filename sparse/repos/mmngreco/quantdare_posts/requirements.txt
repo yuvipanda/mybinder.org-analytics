@@ -1,0 +1,7 @@
+pandas==0.22.*
+numpy
+seaborn
+matplotlib
+pandas-datareader
+numba
+fix-yahoo-finance

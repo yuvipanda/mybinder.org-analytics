@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pip3 install -U pip setuptools wheel
+pip3 install -U scikit-bio==0.5.1
+
+jupyter nbextension enable --py  --sys-prefix widgetsnbextension
+
+# RISE: https://damianavila.github.io/RISE/index.html
+jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension enable rise --py --sys-prefix
+
+jupyter labextension install @jupyterlab/json-extension @jupyterlab/plotly-extension

@@ -1,0 +1,7 @@
+# local package
+-e .
+
+# external requirements
+pandas
+matplotlib.pyplot
+mpl_toolkits.basemap

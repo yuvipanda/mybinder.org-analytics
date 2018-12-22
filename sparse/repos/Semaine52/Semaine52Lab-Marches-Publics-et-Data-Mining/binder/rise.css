@@ -1,0 +1,94 @@
+
+
+div.code_cell, div.text_cell { width: 95% !important ; min-height:30px; border:1px dotted #000000 !important; margin-bottom:10px; background-color: #ffffff;}
+}
+
+div.text_cell{}
+
+div.cell.selected {border:1px solid #5149bb !important;margin-bottom:5px; width:95% !important;}
+
+    div.text_cell_render {
+        
+        font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        outline: none;
+            outline-width: medium;
+            outline-style: none;
+            outline-color: currentcolor;
+        resize: both;
+        width: 95% !important;
+        border: 1 px solid #333333 !important;
+            padding: 0.5em 0.5em 0.5em 0.4em;
+            padding-top: 0.5em;
+            padding-right: 0.5em;
+            padding-bottom: 0.5em;
+            padding-left: 0.4em;
+        color: #444444;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-bottom:5px;
+    }
+
+    .rendered_html td {border: 1px solid #333333 !important; font-size:18px; }
+    .rendered_html th {color:#ffcc00; letter-spacing:1px; font-weight:bold;background:#666666; border:1px solid #ffffff; font-size:18px;}
+
+    .reveal .controls {
+        
+        
+        display: none;
+        position: fixed;
+        width: 110px;
+        height: 110px;
+        z-index: 30;
+        right: 10px;
+        bottom: 10px;
+        -webkit-user-select: none;
+            -moz-user-select: none;
+            background-color: #000000;
+            color:black;
+    }
+
+    .rise-enabled .reveal .slide-number {
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        right: 3.3em;
+        bottom: 3.9em;
+        font-size: 100%;
+        color: white;
+        background: none;;
+        opacity:1;
+        font-weight: bold;
+    }
+
+    .reveal .controls .enabled {opacity:1; background:none;}
+
+    .reveal .controls button {background:none;}
+
+
+    .fa-4x {
+        font-size: 4em; color:white; opacity:0.1; background:none; }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

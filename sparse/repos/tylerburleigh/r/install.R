@@ -1,0 +1,5 @@
+install.packages("tidyverse")
+install.packages("magrittr")
+install.packages("dplyr")
+install.packages("gplots")
+install.packages("RColorBrewer")

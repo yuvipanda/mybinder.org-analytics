@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+
+jupyter nbextension install --user thodio_player_extension
+jupyter nbextension enable thodio_player_extension/main
+

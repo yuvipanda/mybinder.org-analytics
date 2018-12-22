@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Install a JupyterLab extension for demonstration purposes
+jupyter labextension install ijab@2.0.0
+jupyter serverextension enable --py jupyterlab_irods

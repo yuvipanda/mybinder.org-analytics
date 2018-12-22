@@ -1,0 +1,5 @@
+julia -e "Pkg.pin(\"Interact\", v\"0.7.2\")"
+julia -e "using Plots"
+julia -e "using Interact"
+julia -e "using Suppressor"
+julia -e "using BoundaryValueDiffEq"

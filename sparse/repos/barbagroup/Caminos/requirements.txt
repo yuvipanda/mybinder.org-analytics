@@ -1,0 +1,4 @@
+ipython==6.1.0
+numpy==1.14
+matplotlib==2.2.2
+

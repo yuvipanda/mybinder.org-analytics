@@ -1,0 +1,32 @@
+jupyterlab
+
+jupyter_contrib_nbextensions
+jupyterlab_launcher
+jupyterlab-git
+beakerx
+jupyterthemes
+
+# data structures and data analysis
+pandas
+numpy
+
+# data management/versioning
+#quilt
+
+# http tools
+#requests
+
+ipywidgets
+RISE
+
+# data viz
+#matplotlib
+#plotly
+#seaborn
+
+nodejs
+traitlets
+jupyterlab_latex
+
+# sparql
+sparqlkernel

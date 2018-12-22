@@ -1,0 +1,8 @@
+install.packages('dataRetrieval')
+install.packages('EGRET')
+install.packages('zoo')
+install.packages('leaflet')
+install.packages('dplyr')
+install.packages('ggplot2')
+install.packages('htmlwidgets')
+install.packages('IRdisplay')

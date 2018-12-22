@@ -1,0 +1,16 @@
+name: larray-binder
+channels:
+  - damianavila82    # rise
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - pytables
+  - xlrd
+  - openpyxl
+  - bokeh
+  - rise
+  - pip:
+    - larray

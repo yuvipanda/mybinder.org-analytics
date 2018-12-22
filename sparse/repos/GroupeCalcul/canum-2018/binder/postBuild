@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git clone https://github.com/jupyter-widgets/pythreejs.git
+cd pythreejs
+pip install .
+
+jupyter nbextension install --py --symlink --sys-prefix pythreejs
+jupyter nbextension enable --py --sys-prefix pythreejs
+jupyter serverextension enable --sys-prefix jupyterlab_latex
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs @jupyterlab/latex@0.3.1

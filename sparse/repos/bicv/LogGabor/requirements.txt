@@ -1,0 +1,10 @@
+imageio
+holoviews
+matplotlib
+NeuroTools
+numpy
+SLIP
+version-information
+vispy
+watermark
+lmfit

@@ -1,0 +1,5 @@
+numpy==1.13.1
+matplotlib
+seaborn
+ipywidgets
+jupyter_contrib_nbextensions

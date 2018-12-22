@@ -1,0 +1,2 @@
+sympy==0.7.5
+numpy

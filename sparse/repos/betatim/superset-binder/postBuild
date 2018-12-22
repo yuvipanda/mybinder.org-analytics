@@ -1,0 +1,14 @@
+
+pip install https://github.com/jupyterhub/nbserverproxy/archive/master.zip
+jupyter serverextension enable --py nbserverproxy
+
+fabmanager create-admin --app superset --username admin --firstname admin --lastname admin --email someone@mybinder.org --password admin
+
+# Initialize the database
+superset db upgrade
+
+# Load some data to play with
+superset load_examples
+
+# Create default roles and permissions
+superset init

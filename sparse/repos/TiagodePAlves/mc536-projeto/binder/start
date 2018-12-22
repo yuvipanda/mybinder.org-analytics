@@ -1,0 +1,6 @@
+#!/bin/bash
+
+java -server -Xmx4g -jar ferramentas/blazegraph.jar &
+curl -X POST -H 'Content-Type:text/Turtle' --data-binary '@dados/flaredown.ttl' http://localhost:9999/blazegraph/sparql
+
+exec "$@"

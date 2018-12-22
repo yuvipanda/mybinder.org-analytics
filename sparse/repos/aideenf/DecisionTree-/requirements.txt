@@ -1,0 +1,7 @@
+numpy
+pandas
+pydotplus
+sklearn 
+IPython
+graphviz
+GraphViz

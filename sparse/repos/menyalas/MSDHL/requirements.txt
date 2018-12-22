@@ -1,0 +1,7 @@
+matplotlib==2.2.3
+nltk==3.3.0
+numpy==1.15.1
+urllib3==1.23
+gensim==3.6.0
+textblob==0.15.2
+beautifulsoup4==4.6.3

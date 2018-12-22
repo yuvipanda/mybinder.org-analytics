@@ -1,0 +1,7 @@
+folium>=0.5.0
+ipywidgets>=7.3.2
+rdflib-jsonld>=0.0
+matplotlib>=2.2.0
+pandas>=0.22.0
+rdflib>=4.2.0
+sparqlwrapper>=1.8.2

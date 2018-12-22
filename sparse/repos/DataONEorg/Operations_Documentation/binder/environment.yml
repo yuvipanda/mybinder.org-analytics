@@ -1,0 +1,7 @@
+name: DataONE-Operations
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pandas
+  - matplotlib

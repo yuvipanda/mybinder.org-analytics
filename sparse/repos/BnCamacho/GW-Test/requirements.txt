@@ -1,0 +1,6 @@
+Py2
+numpy
+matplotlib
+gwpy
+pycbc
+lalsuite

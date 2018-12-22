@@ -1,0 +1,8 @@
+bookbook
+folium
+geopandas
+latex
+numpy
+pandas
+seaborn
+jupyter_contrib_nbextensions

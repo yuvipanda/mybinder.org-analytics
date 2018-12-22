@@ -1,0 +1,30 @@
+name: xnd-env
+channels:
+  - conda-forge
+  - xnd/label/dev
+
+dependencies:
+  - python==3.6
+  - numpy
+  - gumath
+  - xnd
+  - matplotlib
+  - cycler
+  - networkx
+  - importnb
+  - numba
+  - jupyterlab
+  - pytest
+  - scipy
+  - holoviews
+  - bokeh
+  - pyarrow
+  - pandas 
+  - xarray
+  - dask
+  - line_profiler
+  - snakeviz
+  - scikit-learn
+  - nodejs
+  - pip:
+    - version-information

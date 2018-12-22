@@ -1,0 +1,4 @@
+gawk
+sed
+bash
+man-db

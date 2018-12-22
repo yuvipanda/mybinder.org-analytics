@@ -1,0 +1,9 @@
+jupyter
+RISE
+numpy
+matplotlib
+bash_kernel
+pandas
+gmplot
+bs4
+bash_kernel

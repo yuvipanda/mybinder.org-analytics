@@ -1,0 +1,12 @@
+intermine # Only one really necesary for using Intermine's web services with Python.
+
+# ALL OTHERS ADDED FOR CONVENIENCE OR ADDITIONAL ABILITIES:
+# for automating coversion to Python 3 include nbextensions
+jupyter_contrib_nbextensions
+
+# some other favorites in the Python / Biological realms
+matplotlib
+pandas
+numpy
+seaborn
+biopython

@@ -1,0 +1,7 @@
+numpy==1.14.1
+matplotlib==2.0.2 
+pandas == 0.23.4
+tensorflow == 1.11
+scipy>=0.15.1
+ipywidgets>=7.4.2
+ipython == 6.0

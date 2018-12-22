@@ -1,0 +1,10 @@
+#!/bin/bash
+
+conda activate mcdepi
+pip install git+https://github.com/scikit-optimize/scikit-optimize/ --upgrade
+pip install git+https://github.com/OpenSMFS/depi/ --upgrade
+
+mkdir -p data/results
+cd data/results
+wget -O dsDNA.tar.gz https://ndownloader.figshare.com/files/12753497?private_link=4080f1df435c07e7bd21
+tar xvf dsDNA.tar.gz

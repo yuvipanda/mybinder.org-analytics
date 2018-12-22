@@ -1,0 +1,23 @@
+name: content-extraction-tool
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - pytest
+  - Cython==0.25.2
+  - ipython
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - pandas
+  - lxml
+  - scikit-learn>=0.19.0
+  - nose
+  - requests
+  - ftfy
+  - tqdm
+  - pip:
+    - dragnet
+    - justext

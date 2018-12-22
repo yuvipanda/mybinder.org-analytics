@@ -1,0 +1,12 @@
+channels:
+  - QuantStack
+  - conda-forge
+  - defaults
+dependencies:
+  - notebook
+  - widgetsnbextension
+  - bqplot
+  - xeus-cling
+  - xtensor
+  - xwidgets
+  - xplot

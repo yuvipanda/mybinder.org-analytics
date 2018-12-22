@@ -1,0 +1,11 @@
+datascience
+matplotlib
+pandas
+scipy
+tornado
+notebook
+numpy
+statsmodels
+okpy
+ipywidgets
+jupyterlab

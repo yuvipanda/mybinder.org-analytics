@@ -1,0 +1,8 @@
+pyyaml
+pytest
+pytest-rerunfailures
+pytest-timeout
+pytest-xdist
+requests
+kubernetes
+chartpress

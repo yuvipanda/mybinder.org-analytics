@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - refnx
+  - pandas
+  - xlrd
+  - h5py
+  - cython
+  - numpy
+  - scipy
+  - ipywidgets
+  - matplotlib
+  - traitlets
+  - Jupyter
+  - IPython
+  - tqdm
+  - corner

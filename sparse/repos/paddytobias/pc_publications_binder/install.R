@@ -1,0 +1,6 @@
+install.packages("plotly")
+install.packages("readr")
+install.packages("shiny")
+install.packages("tibble")
+install.packages("tidyr")
+install.packages("dplyr")

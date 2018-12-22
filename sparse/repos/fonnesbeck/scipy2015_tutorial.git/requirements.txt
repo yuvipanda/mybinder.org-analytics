@@ -1,0 +1,16 @@
+ipython>=3.0
+numpy>=1.9
+pandas>=0.16.2
+scipy
+matplotlib
+scikit-learn
+seaborn
+patsy
+jinja2
+tornado
+pyzmq
+jsonschema
+xlrd
+lxml
+beautifulsoup4
+html5lib

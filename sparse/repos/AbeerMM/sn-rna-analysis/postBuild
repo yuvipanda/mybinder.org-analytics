@@ -1,0 +1,38 @@
+jupyter contrib nbextension install --user
+jupyter nbextension install calysto --user
+jupyter nbextension enable calysto/document-tools/main
+jupyter nbextension enable calysto/cell-tools/main
+jupyter nbextension enable calysto/spell-check/main
+jupyter nbextension enable calysto/publish/main
+jupyter nbextension enable calysto/submit/main
+jupyter nbextension enable calysto/annotate/main
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable python-markdown/main
+jupyter nbextension enable autosavetime/main
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable toc2/main
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable execute_time/ExecuteTime
+jupyter nbextension enable nbextensions_configurator/tree_tab/main
+jupyter nbextension enable printview/main
+jupyter nbextension enable snippets_menu/main
+jupyter nbextension enable table_beautifier/main
+jupyter nbextension enable cell_filter/cell_filter
+jupyter nbextension enable codefolding/edit
+jupyter nbextension enable execution_dependencies/execution_dependencies
+jupyter nbextension enable freeze/main
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable runtools/main
+jupyter nbextension enable spellchecker/main
+jupyter nbextension enable toggle_all_line_numbers/main
+jupyter nbextension enable code_font_size/code_font_size
+jupyter nbextension enable datestamper/main
+jupyter nbextension enable move_selected_cells/main
+jupyter nbextension enable rise/main
+jupyter nbextension enable scratchpad/main
+jupyter nbextension enable splitcell/splitcell
+jupyter nbextension enable tree-filter/index
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust 2datasets-analysis.ipynb
+jupyter trust 2datasets_individually-seurat.ipynb

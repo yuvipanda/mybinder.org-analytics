@@ -1,0 +1,29 @@
+name: geo_scipy
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6    # Python version 3.6
+    - basemap       # mapping package
+    - bottleneck    # C-optimized array functions for NumPy
+    - cartopy       # Geographic plotting toolkit
+    - cython        # Transpile Python-&gt;C
+    - dask          # Parallel processing library
+    - h5py          # Wrapper for HDF5
+    - ipython       # IPython interpreter and tools
+    - jupyter       # Jupyter federation architecture
+    - jupyterlab    # Jupyter Lab environment
+    - matplotlib    # 2D plotting library
+    - netcdf4       # Wrapper for netcdf4
+    - numpy         # N-d array and numerics
+    - pandas        # Labeled array library
+    - proj4         # geographic projections
+    - pyresample    # Geographic resampling tools
+    - scipy         # Common math/stats/science functions
+    - statsmodels   # Regression/modeling toolkit
+    - seaborn       # Statistical visualizations
+    - tqdm          # Nice progress bar for longer computations
+    - xarray        # N-d labeled array library
+    - zarr          # Array storage library
+    - numcodecs     # Compression library used by zarr
+    - s3fs          # Access data from Amazon S3

@@ -1,0 +1,7 @@
+matplotlib
+awscli
+pillow
+pandas
+kaggle
+sqlalchemy
+numpy

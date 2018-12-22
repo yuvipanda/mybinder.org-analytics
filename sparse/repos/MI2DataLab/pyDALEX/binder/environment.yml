@@ -1,0 +1,5 @@
+dependencies:
+  - numpy
+  - rpy2
+  - keras
+  - scikit-learn

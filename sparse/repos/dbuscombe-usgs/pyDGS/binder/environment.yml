@@ -1,0 +1,15 @@
+name: DGS
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipython
+  - jupyter  
+  - notebook  
+  - numpy
+  - cython
+  - matplotlib
+  - pip
+  - pip:
+    - pyDGS

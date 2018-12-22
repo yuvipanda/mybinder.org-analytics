@@ -1,0 +1,5 @@
+nbserverproxy
+ipywidgets
+hgtiles
+hgflask
+higlass-jupyter

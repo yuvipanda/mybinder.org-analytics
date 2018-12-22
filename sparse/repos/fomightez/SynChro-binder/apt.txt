@@ -1,0 +1,4 @@
+csh
+gnuplot
+gnuplot-x11
+ghostscript

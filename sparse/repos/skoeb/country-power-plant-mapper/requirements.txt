@@ -1,0 +1,7 @@
+matplotlib==2.2.2
+geopandas==0.4.0
+country_converter==0.6.6
+shapely==1.6.4.post1
+ipywidgets==7.2.1
+descartes==1.1.0
+seaborn==0.9.0

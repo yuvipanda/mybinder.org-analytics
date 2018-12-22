@@ -1,0 +1,4 @@
+pathlib==1.0.1
+pandas==0.23.3
+numpy==1.15.4
+matplotlib==2.0.2

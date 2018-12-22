@@ -1,0 +1,5 @@
+chromium-browser
+chromium-chromedriver
+xorg 
+openbox
+xauth

@@ -1,0 +1,7 @@
+brandelion
+docopt
+matplotlib
+numpy
+scipy
+sklearn
+tabulate

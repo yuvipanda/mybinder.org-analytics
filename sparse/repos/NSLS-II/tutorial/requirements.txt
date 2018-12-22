@@ -1,0 +1,16 @@
+bluesky
+caproto[complete]
+dask
+databroker
+distributed
+ipympl
+ipywidgets
+matplotlib
+ophyd
+pandas
+pyepics
+tornado<5
+
+# Careful: Changing these could break the cluster.
+jupyterhub==0.8.*
+nbgitpuller

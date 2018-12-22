@@ -1,0 +1,8 @@
+curl -L "https://www.dropbox.com/s/dlmpr7wabehq3x0/models.zip?dl=1" > models.zip
+unzip models.zip
+rm models.zip
+source activate kernel # ensure we are in the py27 environment
+pip install appmode
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension     enable --py --sys-prefix appmode
+jupyter serverextension enable --py --sys-prefix appmode

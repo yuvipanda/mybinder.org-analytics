@@ -1,0 +1,14 @@
+tqdm==4.24.0
+jupyter==1.0.0
+ipython==6.5.0
+scikit-learn==0.19.2
+scipy==1.1.0
+matplotlib==3.0.0
+kaggle==1.5.0
+numpy==1.15.1
+pandas==0.23.0
+seaborn==0.8.1
+Markdown==2.6.11
+xgboost==0.80
+urllib3==1.21.1
+catboost==0.10.4.1

@@ -1,0 +1,17 @@
+catboost
+glob2
+glove-python
+pandas
+nbconvert
+notebook
+numpy
+numpydoc
+scikit-image
+scikit-learn
+scipy
+seaborn
+matplotlib
+tensorboard
+tensorflow
+tqdm
+xgboost

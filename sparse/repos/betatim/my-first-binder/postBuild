@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+
+#echo "export PATH="/home/jovyan/.linuxbrew/bin":"$PATH >>~/.profile
+
+#export PATH="/home/jovyan/.linuxbrew/bin":$PATH
+
+#brew install hello
+#

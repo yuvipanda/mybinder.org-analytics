@@ -1,0 +1,3 @@
+numpy==1.14.0
+bqplot==0.10.5
+graphviz==0.8.3

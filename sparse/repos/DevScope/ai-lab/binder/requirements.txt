@@ -1,0 +1,32 @@
+numpy
+matplotlib
+pandas
+sklearn
+sklearn-pandas
+joblib
+scipy
+shap
+lime
+dash
+dash-renderer
+dash-html-components
+dash-core-components
+plotly
+dash_table_experiments 
+dash_auth
+seaborn
+
+# dash/flask issue, https://github.com/plotly/dash/issues/257
+flask==0.12.2
+ipywidgets
+jupyter_contrib_nbextensions
+nbserverproxy
+appmode
+
+#not working yet? sasl/saslwrapper.h:22:10: fatal error: sasl/sasl.h: No such file or directory
+#error: command 'gcc' failed with exit status 1
+#ppextensions
+
+pandas-profiling
+
+redis

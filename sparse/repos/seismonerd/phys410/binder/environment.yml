@@ -1,0 +1,6 @@
+name: phys-410-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - obspy

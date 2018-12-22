@@ -1,0 +1,15 @@
+matplotlib
+pandas
+ipykernel<5.0.0
+bokeh
+tweepy
+mlxtend
+scikit-learn
+textmining3
+wordcloud
+mlxtend
+graphviz
+okpy
+nltk
+tensorflow
+keras

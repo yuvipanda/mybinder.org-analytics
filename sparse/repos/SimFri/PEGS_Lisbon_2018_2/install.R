@@ -1,0 +1,7 @@
+install.packages("rmarkdown")
+install.packages("ggplot2")
+install.packages("stringdist")
+install.packages("igraph")
+install.packages("ape")
+install.packages("BiocManager")
+BiocManager::install("motifStack", version = "3.8")

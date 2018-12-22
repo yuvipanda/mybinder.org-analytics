@@ -1,0 +1,15 @@
+name: fundamentals
+channels: 
+  - eaton-lab
+dependencies:
+  - python>=3
+  - numpy
+  - scipy
+  - requests
+  - future
+  - toyplot
+  - toytree
+  #- pip:
+  #  - toyplot>=0.17.0
+  #  - toytree
+

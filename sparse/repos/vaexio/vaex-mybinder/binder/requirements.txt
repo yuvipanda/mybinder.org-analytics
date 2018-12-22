@@ -1,0 +1,8 @@
+vaex-core>=0.6
+vaex-hdf5
+vaex-arrow
+vaex-jupyter
+vaex-viz
+numba
+scipy
+notebook>=5.4

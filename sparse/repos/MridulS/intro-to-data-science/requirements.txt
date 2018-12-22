@@ -1,0 +1,9 @@
+pandas
+matplotlib
+jupyter
+networkx
+numpy
+scipy
+seaborn
+nxviz
+python-louvain

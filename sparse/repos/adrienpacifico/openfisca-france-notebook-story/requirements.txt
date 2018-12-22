@@ -1,0 +1,7 @@
+ipykernel==4.9.0
+ipython==6.5.0
+jupyter
+matplotlib
+openfisca-france
+pandas
+bokeh

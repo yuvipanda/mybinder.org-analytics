@@ -1,0 +1,47 @@
+Package: comsldpsy
+Title: Data and analysis code for Visser et. al (submitted)
+Version: 0.1.0
+Authors@R:
+    person(given = "Janosch",
+           family = "Linkersdörfer",
+           role = c("aut", "cre"),
+           email = "linkersdoerfer@mailbox.org")
+Description: Provides data and analysis code for Visser et. al (submitted)
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Depends:
+    drake
+Imports:
+    broom,
+    cowplot,
+    data.table,
+    dplyr,
+    flextable,
+    forcats,
+    future,
+    GGally,
+    ggplot2,
+    grid,
+    Hmisc,
+    janitor,
+    jtools,
+    magrittr,
+    officer,
+    pkgconfig,
+    purrr,
+    redcapAPI,
+    rlang,
+    scales,
+    sjmisc,
+    sjlabelled,
+    stringr,
+    tibble,
+    tidyr,
+    UpSetR,
+    zeallot
+Suggests:
+    visNetwork
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0

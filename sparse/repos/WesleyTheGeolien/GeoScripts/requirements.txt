@@ -1,0 +1,7 @@
+jupyterlab
+jupyter
+pandas
+pyproj
+
+ipyleaflet
+ipyvolume

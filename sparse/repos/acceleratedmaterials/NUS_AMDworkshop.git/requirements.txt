@@ -1,0 +1,13 @@
+keras
+tensorflow
+graphviz
+h5py
+openpyxl
+xlrd
+sklearn
+matplotlib
+theano
+xgboost
+pyswarm
+deepdish
+joblib

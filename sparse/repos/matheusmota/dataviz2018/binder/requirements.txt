@@ -1,0 +1,28 @@
+beakerx
+jupyterlab
+jupyter_contrib_nbextensions
+jupyterlab_launcher
+jupyterlab-git
+
+# data structures and data analysis 
+pandas
+numpy
+
+# data management/versioning
+quilt
+
+# http tools
+requests
+
+ipywidgets
+RISE
+
+# data viz
+matplotlib
+plotly
+seaborn
+bs4
+
+# machine learning
+#scikit-learn
+#scipy

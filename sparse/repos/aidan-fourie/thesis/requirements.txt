@@ -1,0 +1,9 @@
+numpy
+ipywidgets
+nbinteract
+pandas_datareader
+pandas
+tensorflow
+keras
+matplotlib
+IPython

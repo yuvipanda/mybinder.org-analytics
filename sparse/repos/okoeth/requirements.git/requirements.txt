@@ -1,0 +1,6 @@
+numpy==1.13.1
+matplotlib==2.0.2 
+seaborn==0.8.1
+stravalib==0.9.4
+pandas==0.23.4
+bokeh==1.0.0

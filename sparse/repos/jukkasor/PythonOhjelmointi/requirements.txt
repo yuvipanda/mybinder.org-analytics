@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scipy
+folium
+#from bs4 import BeautifulSoup
+request

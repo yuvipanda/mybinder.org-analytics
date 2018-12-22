@@ -1,0 +1,13 @@
+#!/bin/bash
+
+pip install https://github.com/jupyterhub/nbserverproxy/archive/master.zip
+jupyter serverextension enable --py nbserverproxy
+
+npm install yarn
+
+cd theia
+../node_modules/.bin/yarn && \
+    ../node_modules/.bin/yarn theia build && \
+    rm -rf ./node_modules/electron && \
+    ../node_modules/.bin/yarn cache clean
+    

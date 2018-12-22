@@ -1,0 +1,8 @@
+julia 1.0.1
+Optim
+Distributions
+Plots
+StatsBase
+ForwardDiff
+DataFrames
+CSV

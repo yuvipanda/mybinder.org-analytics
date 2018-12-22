@@ -1,0 +1,12 @@
+jupyter
+requests
+ujson
+nltk
+praw
+bs4
+pandas
+seaborn
+tqdm
+sklearn
+numpy
+arrow

@@ -1,0 +1,13 @@
+pandas
+requests
+fiona
+geopandas
+bokeh
+matplotlib
+descartes
+rtree
+pysal
+seaborn
+sklearn
+scikit-image
+opencv-python

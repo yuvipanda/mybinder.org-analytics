@@ -1,0 +1,10 @@
+convertbng
+geojson
+glymur
+mgrs
+matplotlib
+numpy
+pillow
+pyshp
+scipy
+scikit-image

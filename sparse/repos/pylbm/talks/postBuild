@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git clone https://github.com/pylbm/pylbm.git
+cd pylbm
+conda install --yes --file requirements-dev.txt
+python setup.py install

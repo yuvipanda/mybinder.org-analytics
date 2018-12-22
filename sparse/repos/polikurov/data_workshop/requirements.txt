@@ -1,0 +1,7 @@
+sklearn
+pandas
+plotly
+ipywidgets
+graphviz
+matplotlib
+pydotplus

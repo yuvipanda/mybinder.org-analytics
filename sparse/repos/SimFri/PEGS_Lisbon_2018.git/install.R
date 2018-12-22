@@ -1,0 +1,5 @@
+install.packages("rmarkdown")
+install.packages("ggplot2")
+install.packages("stringdist")
+install.packages("igraph")
+install.packages("ape")

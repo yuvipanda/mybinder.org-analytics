@@ -1,0 +1,7 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension enable python-markdown/main
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust 1_Jupyter_Notebook_Introduction.ipynb
+jupyter trust 2_Jupyter_Notebook_ISA_Exercise.ipynb

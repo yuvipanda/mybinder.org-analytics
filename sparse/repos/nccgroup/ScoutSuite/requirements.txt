@@ -1,0 +1,22 @@
+# Core
+python-dateutil>=2.2
+netaddr>=0.7.11
+
+# AWS Provider
+boto3>=1.9.60
+opinel>=3.3.4,<4.0.0
+
+# GCP Provider
+grpcio
+## Cloud Libraries
+google-cloud-resource-manager
+google-cloud-storage
+google-cloud-container
+google-cloud-logging
+google-cloud-monitoring
+## API Client Libraries
+google_api_python_client
+oauth2client>=4.1.3
+
+# Azure Provider
+azure-mgmt-storage>=3.0.0

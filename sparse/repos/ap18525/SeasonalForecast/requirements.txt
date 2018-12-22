@@ -1,0 +1,6 @@
+numpy
+ipywidgets
+nbinteract
+netCDF4
+seaborn
+matplotlib

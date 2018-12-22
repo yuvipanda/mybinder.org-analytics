@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - ioam
+dependencies:
+  - xarray
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - holoviews
+  - geoviews
+  - pip:
+    - git+https://github.com/benbovy/xvelmap.git

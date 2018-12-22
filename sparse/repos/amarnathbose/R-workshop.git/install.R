@@ -1,0 +1,6 @@
+install.packages("ROCR")
+install.packages("Metrics")
+install.packages("gplots")
+install.packages("DAAG")
+install.packages("caret", repos='http://cran.rstudio.com/')
+install.packages("ggplot2")

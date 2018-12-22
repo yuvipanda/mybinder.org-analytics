@@ -1,0 +1,7 @@
+name: intro-python
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - ipywidgets
+  - beakerx

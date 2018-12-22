@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Install widget extension
+curl -sL https://deb.nodesource.com/setup_9.x | bash -
+apt-get install nodejs # this, unfortunately, can't go in apt.txt
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter nbextension enable --py widgetsnbextension

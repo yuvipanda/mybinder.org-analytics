@@ -1,0 +1,5 @@
+cvxopt
+jupyter
+virtualenv
+msgpack
+pyscf

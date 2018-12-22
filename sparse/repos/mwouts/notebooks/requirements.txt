@@ -1,0 +1,4 @@
+nbrmd>=0.4.2
+plotly
+matplotlib
+pandas

@@ -1,0 +1,8 @@
+jupyter contrib nbextension install --user
+jupyter-nbextension enable splitcell/splitcell
+
+jupyter-nbextension install rise --py --user
+jupyter-nbextension enable rise --py --user
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust "pypy-for-HPC/PyPy for High Performance Computing.ipynb"

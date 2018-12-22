@@ -1,0 +1,10 @@
+astropy==3.0.2
+dill==0.2.8.2
+emcee==2.2.1
+matplotlib==2.2.2
+numpy==1.14.5
+pandas==0.23.0
+pandas-datareader==0.6.0
+pandocfilters==1.4.2
+schwimmbad==0.3.0
+scipy==1.1.0

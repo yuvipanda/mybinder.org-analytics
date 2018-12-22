@@ -1,0 +1,20 @@
+name: fuzzingbook
+channels:
+  - defaults
+  - anaconda-fusion
+  - conda-forge
+  - bjornfjohansson
+  - anaconda-platform
+dependencies:
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - graphviz
+  - autopep8
+  - notedown
+  - mypy
+  - pip:
+      - graphviz
+      - svglib
+      - jupyter_contrib_nbextensions

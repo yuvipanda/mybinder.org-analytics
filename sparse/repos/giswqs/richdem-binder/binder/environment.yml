@@ -1,0 +1,10 @@
+name: richdem-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - gdal
+  - imageio
+  - pip:
+    - richdem
+    - pygis

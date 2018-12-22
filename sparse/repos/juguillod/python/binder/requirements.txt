@@ -1,0 +1,7 @@
+jupyterlab
+numpy
+scipy
+matplotlib
+sympy
+numba
+networkx

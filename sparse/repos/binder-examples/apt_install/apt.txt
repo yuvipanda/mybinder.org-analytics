@@ -1,0 +1,4 @@
+lolcat
+fortune
+cowsay
+sl

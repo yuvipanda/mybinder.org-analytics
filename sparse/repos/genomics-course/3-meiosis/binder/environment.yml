@@ -1,0 +1,7 @@
+name: session-3
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - pip:
+    - toyplot

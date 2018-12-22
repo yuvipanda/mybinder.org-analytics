@@ -1,0 +1,7 @@
+jsonschema
+pyld
+rfc3987
+jsonref
+rdflib-jsonld
+pyOpenSSL
+notebook==5.4.1

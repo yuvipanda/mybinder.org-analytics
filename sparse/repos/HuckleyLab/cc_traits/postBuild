@@ -1,0 +1,1 @@
+pip install git+git://github.com/slundberg/shap.git@021e57c1a944149925976bf3977f374b4f8c7941

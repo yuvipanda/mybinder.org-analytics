@@ -1,0 +1,10 @@
+pandas
+seaborn
+matplotlib
+numpy
+matplotlib-venn
+pyperclip
+scipy
+pytrends
+scikit-learn
+xlrd

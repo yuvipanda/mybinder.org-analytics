@@ -1,0 +1,5 @@
+numpy
+gerrymetrics
+matplotlib
+seaborn
+ipywidgets

@@ -1,0 +1,15 @@
+# These will be installed to the python environment
+numpy
+scipy
+matplotlib
+astropy
+tables
+pandas
+# packages
+git+https://github.com/mfouesneau/pyphot
+git+https://github.com/mfouesneau/pystellibs
+git+https://github.com/mfouesneau/pyextinction
+git+https://github.com/mfouesneau/ezmist
+git+https://github.com/mfouesneau/ezpadova
+# git+https://github.com/mfouesneau/ezdart
+git+https://github.com/mfouesneau/ezdata

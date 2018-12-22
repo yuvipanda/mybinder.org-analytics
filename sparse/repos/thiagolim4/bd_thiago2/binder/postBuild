@@ -1,0 +1,18 @@
+#!/bin/bash
+
+beakerx install
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --dev
+jupyter labextension install beakerx-jupyterlab --dev
+
+#jupyter contrib nbextension install --user
+#jupyter nbextension enable --py widgetsnbextension
+#jupyter nbextension enable python-markdown/main
+
+# run matplotlib once to generate the font cache
+python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
+
+jupyter labextension install @jupyterlab/latex
+jupyter lab build

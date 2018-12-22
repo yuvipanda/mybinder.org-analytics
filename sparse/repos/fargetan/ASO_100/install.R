@@ -1,0 +1,5 @@
+install.packages("tidyverse", repos="http://cran.rstudio.com/")
+install.packages("rmarkdown", repos="http://cran.rstudio.com/")
+install.packages("httr", repos="http://cran.rstudio.com/")
+install.packages("shinydashboard", repos="http://cran.rstudio.com/")
+install.packages('leaflet', repos="http://cran.rstudio.com/")

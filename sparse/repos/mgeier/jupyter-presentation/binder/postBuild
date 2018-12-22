@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+python -m notebook.nbextensions install --python rise --user
+python -m notebook.nbextensions enable --python rise --user

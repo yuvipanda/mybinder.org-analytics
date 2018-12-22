@@ -1,0 +1,19 @@
+# For enabling the Solution extension
+jupyter_contrib_nbextensions
+
+# We use these packages for the in-class exercise
+jellyfish
+ngram
+
+# Used in notebook Z 
+numpy
+matplotlib
+
+# Used for code-prettify extension
+yapf
+
+# If we use the jupyter-autopep8 extension instead of code-prettify
+# autopep8
+
+# To remove the output from the notebooks
+nbstripout

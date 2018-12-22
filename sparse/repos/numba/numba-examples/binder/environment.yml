@@ -1,0 +1,11 @@
+name: numba-examples
+channels:
+  - defaults
+  - numba
+
+dependencies:
+  - python=3.6
+  - numba==0.41.0
+  - scipy
+  - icc_rt
+  - dask

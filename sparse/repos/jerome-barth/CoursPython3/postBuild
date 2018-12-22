@@ -1,0 +1,9 @@
+# RISE
+# pip install RISE
+# jupyter-nbextension enable rise --py --sys-prefix
+#
+# jupyter nbextensions_configurator enable --user
+# activation nbpresent
+# jupyter nbextension install nbpresent --py --overwrite
+# jupyter nbextension enable nbpresent --py
+# jupyter serverextension enable nbpresent --py

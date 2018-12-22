@@ -1,0 +1,4 @@
+MathJaxPlugin==0.1.5
+matplotlib==2.2.0
+numpy==1.14.1
+seaborn==0.8.1

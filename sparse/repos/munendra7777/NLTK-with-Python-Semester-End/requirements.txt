@@ -1,0 +1,14 @@
+matplotlib==2.2.3
+numpy==1.15.1
+pandas==0.23.4
+PyPDF2==1.26.0
+scikit-learn==0.20.1
+scipy==1.1.0
+sklearn==0.0
+textblob==0.15.2
+tokenizer==1.0.8
+wordcloud==1.5.0
+future==0.17.1
+ipython==5.8.0
+nltk==3.4
+tables==3.4.4

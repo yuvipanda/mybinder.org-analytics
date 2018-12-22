@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# get parcels examples
+parcels_get_examples parcels_examples
+
+# clean up repo
+rm -rf binder/
+rm -f README.md

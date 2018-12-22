@@ -1,0 +1,17 @@
+jq
+xmlstarlet
+golang-go
+libxml2-dev 
+libxslt1-dev
+python-dev
+python-lxml
+nodejs
+unzip
+spatialite-bin
+libsqlite3-mod-spatialite
+locate
+moreutils
+automake
+autoconf
+libtool
+flex

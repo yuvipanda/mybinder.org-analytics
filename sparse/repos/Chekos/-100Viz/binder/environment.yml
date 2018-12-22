@@ -1,0 +1,11 @@
+name: dataviz
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - altair=2.1.0=py_0
+  - pandas=0.23.3=py36hf8a1672_1
+  - vega=1.3.0=py36_0
+  - vega_datasets=0.5.0=py_0
+
+

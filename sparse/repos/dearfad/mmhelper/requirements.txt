@@ -1,0 +1,8 @@
+jupyter_contrib_nbextensions
+scikit-learn
+pandas
+seaborn
+xlrd
+autopep8
+xgboost
+pylint

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# upgrade the ipykernel so python2 works? https://github.com/jupyter/repo2docker/issues/257
+#pip2 install --upgrade ipykernel
+
+#install jcvi
+#pip2 install jcvi
+
+
+# run matplotlib once to generate the font cache
+python2 -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+test -e test.png && rm test.png
+
+#python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+#test -e test.png && rm test.png

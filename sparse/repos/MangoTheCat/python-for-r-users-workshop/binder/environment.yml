@@ -1,0 +1,13 @@
+name: py4r
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - seaborn
+  - statsmodels
+  - bokeh
+  - pip:
+    - sklearn
+    - yellowbrick

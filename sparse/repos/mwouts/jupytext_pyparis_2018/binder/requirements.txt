@@ -1,0 +1,8 @@
+jupytext
+plotly
+pandas
+tables
+ipywidgets
+wbdata
+bash_kernel
+jupyter_contrib_nbextensions

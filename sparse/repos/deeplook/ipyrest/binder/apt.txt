@@ -1,0 +1,2 @@
+# stuff used in some example notebooks
+jq

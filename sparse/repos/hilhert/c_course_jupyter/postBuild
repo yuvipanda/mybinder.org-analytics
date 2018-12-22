@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable python-markdown/main
+jupyter labextension install jupyterlab-drawio
+pip install jupyter-c-kernel
+install_c_kernel --user

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -ex
+
+# Install the bash kernel
+python -m bash_kernel.install
+
+# Trust our notebook
+jupyter trust notebook/Greenhouse_gas_emissions.ipynb
+jupyter trust demo/1_alice/Greenhouse_gas_emissions.ipynb
+
+# Extensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable toc2/main

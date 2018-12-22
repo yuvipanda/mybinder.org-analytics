@@ -1,0 +1,11 @@
+jupyter_contrib_nbextensions
+jupyter-nbextensions-configurator
+RISE
+nbpresent
+beakerx
+sos
+sos-notebook
+quilt
+bash_kernel
+pgcli
+ipython-sql

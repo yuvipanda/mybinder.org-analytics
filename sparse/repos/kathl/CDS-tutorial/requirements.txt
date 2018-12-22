@@ -1,0 +1,5 @@
+ipyaladin==0.1.5
+astropy==3.0.5
+astroquery==0.3.8
+ipywidgets==7.4.2
+widgetsnbextension==3.4.2

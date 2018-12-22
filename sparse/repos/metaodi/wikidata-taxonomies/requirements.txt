@@ -1,0 +1,4 @@
+rdflib==4.2.2
+anytree==2.4.3
+SPARQLWrapper==1.8.2
+jupyter==1.0.0

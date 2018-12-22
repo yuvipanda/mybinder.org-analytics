@@ -1,0 +1,11 @@
+jupyter labextension install jupyterlab_templates
+jupyter serverextension enable --py jupyterlab_templates --sys-prefix
+
+jupyter lab build
+
+jupyter notebook --generate-config -y 
+
+git clone https://github.com/chekos/planillas_jupyter.git /home/jovyan/.jupyter/templates
+echo "c.JupyterLabTemplates.template_dirs = ['/home/jovyan/.jupyter/templates/planillas']" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+
+rm /home/jovyan/conda-bld -rf

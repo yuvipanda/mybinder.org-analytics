@@ -1,0 +1,8 @@
+install.packages('effsize')
+install.packages('RcmdrMisc')
+install.packages('CVXR')
+install.packages('nlme')
+install.packages('kable')
+install.packages('kableExtra')
+install.packages('fpp2')
+install.packages('forecast')

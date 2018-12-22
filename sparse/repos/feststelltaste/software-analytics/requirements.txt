@@ -1,0 +1,8 @@
+# This are the requirements for the notebooks
+# Especially useful when running the notebooks with mybinder.org
+pandas
+matplotlib
+py2neo
+pygal
+# experimental library for importing software data
+git+git://github.com/feststelltaste/ozapfdis.git

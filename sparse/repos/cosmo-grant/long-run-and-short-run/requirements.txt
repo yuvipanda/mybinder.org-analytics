@@ -1,0 +1,4 @@
+numpy==1.11.3
+pandas
+scipy
+matplotlib

@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --user
+jupyter nbextension     enable --py --sys-prefix appmode
+jupyter serverextension enable --py --sys-prefix appmode
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust *.ipynb

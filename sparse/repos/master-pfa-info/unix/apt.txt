@@ -1,0 +1,17 @@
+curl
+emacs-nox
+git
+golang
+inetutils-ping
+mercurial
+man-db
+manpages
+manpages-dev
+manpages-posix-dev
+nano
+pkg-config
+python
+python3
+tree
+unzip
+vim

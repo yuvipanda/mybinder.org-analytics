@@ -1,0 +1,9 @@
+numpy
+ipywidgets
+nbinteract
+math
+pandas
+os
+sys
+re
+mathplotlib

@@ -1,0 +1,16 @@
+bokeh
+holoviews
+jupyter
+jupyter_contrib_nbextensions
+matplotlib
+mpld3
+numpy
+pandas
+pivottablejs
+plotly
+prettypandas
+pymarkdown
+scipy
+seaborn
+statsmodels
+wes

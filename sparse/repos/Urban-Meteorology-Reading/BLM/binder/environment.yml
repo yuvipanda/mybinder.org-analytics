@@ -1,0 +1,20 @@
+name: example-environment
+channels:
+  - conda-forge
+  - mcgibbon
+dependencies:
+  - python = 3.6
+  - numpy >= 1.15.2
+  - scipy
+  - sympy
+  - matplotlib
+  - seaborn
+  - pandas
+  - ipykernel
+  - pip = 9.0.3
+  - pip:
+    - atmos
+    - xarray
+    - dask
+    - geopandas
+    - supy

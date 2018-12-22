@@ -1,0 +1,12 @@
+conda==4.5.11
+Keras==2.2.2
+matplotlib==2.1.2
+nltk==3.2.5
+numpy==1.14.2
+pandas==0.22.0
+requests==2.18.4
+scikit-image==0.13.1
+scikit-learn==0.19.1
+scipy==1.0.0
+seaborn==0.8.1
+theano==1.0.2

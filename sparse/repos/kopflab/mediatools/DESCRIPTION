@@ -1,0 +1,40 @@
+Package: MediaChemTools
+Type: Package
+Title: Culture media calculations.
+Description: Package to simplify working with defined culture medium.
+Version: 0.3.2.9999
+Authors@R: person("Sebastian", "Kopf", email = "sebastian.kopf@colorado.edu",
+    role = c("aut", "cre"))
+URL: https://github.com/kopflab/mediachemtools
+BugReports: https://github.com/kopflab/mediachemtools/issues
+Depends: R (>= 3.3.0)
+Imports:
+    methods,
+    rlang,
+    magrittr,
+    purrr,
+    forcats,
+    tibble,
+    dplyr,
+    stringr
+Suggests:
+    tidyverse,
+    plotly,
+    knitr,
+    rmarkdown,
+    testthat
+License: GPL (>= 2) 
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 6.1.0
+Collate:
+    'classes.R'
+    'arithmetic.R'
+    'calculations.R'
+    'carbonate_chem.R'
+    'constants.R'
+    'package.R'
+    'quantities.R'
+    'utils.R'
+    'visualization.R'

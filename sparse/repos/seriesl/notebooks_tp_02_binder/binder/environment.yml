@@ -1,0 +1,6 @@
+name: tp02
+dependencies:
+    - numpy
+    - scipy
+    - bokeh
+    - gcc

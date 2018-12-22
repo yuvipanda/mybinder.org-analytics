@@ -1,0 +1,4 @@
+matplotlib==2.1.1
+geopandas==0.3.0
+pysal 
+seaborn==0.8.1

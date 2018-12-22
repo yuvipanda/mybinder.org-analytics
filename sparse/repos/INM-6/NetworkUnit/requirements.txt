@@ -1,0 +1,6 @@
+elephant ~= 0.5.0
+sciunit ~= 0.2.0.2
+jupyter ~= 1.0.0
+tabulate ~= 0.8.2
+networkx ~= 2.1
+seaborn ~= 0.8.1

@@ -1,0 +1,7 @@
+#!/usr/bin/expect
+spawn parallel --citation
+sleep 2
+set prompt "> $"
+expect "> "
+send "will cite\r\r"
+sleep 1

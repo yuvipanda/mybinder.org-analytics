@@ -1,0 +1,20 @@
+#!/bin/bash
+
+work="$PWD"
+
+wget "https://github.com/google/or-tools/archive/v6.10.tar.gz"
+
+tar zxf v6.10.tar.gz
+
+cd or-tools-6.10
+
+make cc
+
+make test_cc
+
+make install_cc
+
+cd $work
+
+rm -rf or-tools-6.10
+rm v6.10.tar.gz

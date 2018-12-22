@@ -1,0 +1,8 @@
+certifi==2018.8.24
+pbr==5.1.0
+pipenv==2018.7.1
+six==1.11.0
+stevedore==1.30.0
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
+virtualenvwrapper==4.8.2

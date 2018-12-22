@@ -1,0 +1,13 @@
+name: EA
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pyviz/label/earthsim::holoviews=1.11.0a6
+  - pyviz/label/earthsim::panel=0.1.0a14
+  - imageio
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pillow
+  - pydensecrf

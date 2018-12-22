@@ -1,0 +1,6 @@
+ipympl==0.2.1
+matplotlib==2.2.2
+numpy==1.14.3
+pandas==0.23.0
+geopandas==0.4.0
+descartes==1.1.0

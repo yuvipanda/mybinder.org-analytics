@@ -1,0 +1,8 @@
+libatlas-base-dev
+liblapack-dev
+libblas-dev
+libxslt-dev
+libxml2-dev
+gcc
+g++
+gnupg

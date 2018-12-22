@@ -1,0 +1,6 @@
+numpy==1.14.6
+pandas==0.22.0
+matplotlib==2.1.2
+biopython==1.71
+wordcloud==1.4.1
+pillow==5.0.0

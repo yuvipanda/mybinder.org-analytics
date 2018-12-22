@@ -1,0 +1,18 @@
+#!/bin/bash
+pip install -e ./jupyter-gfort-kernel
+jupyter kernelspec install ./jupyter-gfort-kernel/gfort_spec --user
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.1-linux-x86_64.tar.gz
+tar zxvf julia-1.0.1-linux-x86_64.tar.gz
+export PATH=$PATH:~/julia-1.0.1/bin
+julia -e 'using Pkg; Pkg.add("IJulia"); Pkg.add("Plots"); Pkg.update(); Pkg.build(); Pkg.precompile()'
+rm julia-1.0.1-linux-x86_64.tar.gz 
+jupyter contrib nbextension install --user
+mkdir flang
+cd flang
+wget https://github.com/flang-compiler/flang/releases/download/flang_20180921/flang-20180921-x86.tgz
+tar zxvf flang-20180921-x86.tgz
+rm flang-20180921-x86.tgz
+cd ..
+echo export LD_LIBRARY_PATH=~/flang/lib:$LD_LIBRARY_PATH >> ~/.bashrc
+echo export PATH=~/flang/bin:$PATH                       >> ~/.bashrc
+

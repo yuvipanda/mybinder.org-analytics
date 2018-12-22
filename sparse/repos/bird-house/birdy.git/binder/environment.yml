@@ -1,0 +1,24 @@
+# conda env create -f environment.yml
+name: birdy
+channels:
+  - birdhouse
+  - conda-forge
+  - defaults
+dependencies:
+  - six
+  - lxml
+  - owslib>=0.17
+  - click
+  - jinja2
+  - wrapt
+  - funcsigs
+  - boltons
+  # optional
+  - netcdf4
+  # tests
+  - pytest
+  - flake8
+  # sphinx for rtd
+  - sphinx
+  - pip:
+    - sphinx-autoapi

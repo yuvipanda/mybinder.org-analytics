@@ -1,0 +1,9 @@
+seaborn
+astropy
+numpy
+requests
+keyring
+pytz
+beautifulsoup4
+astroquery
+astroplan

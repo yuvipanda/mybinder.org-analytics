@@ -1,0 +1,14 @@
+name: fem-environment
+channels:
+  - conda-forge
+dependencies:
+  - gcc
+  - libgfortran
+  - openblas
+  - python=2.7
+  - numpy
+  - pip:
+    - pandas
+    - matplotlib
+    - scipy
+    - fem

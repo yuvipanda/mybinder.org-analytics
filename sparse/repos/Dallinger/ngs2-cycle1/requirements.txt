@@ -1,0 +1,7 @@
+matplotlib==2.1.0
+networkx==1.11
+numpy==1.13.1
+odo==0.5.0
+pandas==0.20.3
+tablib==0.11.3
+-e git+https://github.com/Dallinger/Dallinger.git@fix-user-data-checking#egg=dallinger[data]

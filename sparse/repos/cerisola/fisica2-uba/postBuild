@@ -1,0 +1,7 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable init_cell/main
+
+jupyter trust oscilador-amortiguado-forzado/Oscilador\ Amoritguado\ y\ Forzado.ipynb
+jupyter trust modos-normales/Pendulos\ Acoplados.ipynb
+jupyter trust fourier/Calculo\ de\ serie\ Fourier.ipynb 

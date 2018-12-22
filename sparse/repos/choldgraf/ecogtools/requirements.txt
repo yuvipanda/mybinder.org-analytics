@@ -1,0 +1,17 @@
+setuptools
+numpy
+scipy
+scikit-learn
+nibabel
+matplotlib
+pandas
+mne
+h5py
+statsmodels
+IPython
+seaborn
+tqdm
+plotly
+colorlover
+moviepy
+imageio

@@ -1,0 +1,6 @@
+rise==5.4.1
+pandas==0.23.0
+plotly==3.2.1
+ipywidgets==7.2.1
+wget==3.2
+

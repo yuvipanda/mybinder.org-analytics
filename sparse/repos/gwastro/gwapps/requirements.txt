@@ -1,0 +1,4 @@
+appmode
+ipywidgets
+lalsuite
+pycbc

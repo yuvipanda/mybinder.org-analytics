@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+numpydoc
+spectrum
+m2r
+ipython

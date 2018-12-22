@@ -1,0 +1,2 @@
+seaborn
+git+https://github.com/thunder-project/thunder.git@master

@@ -1,0 +1,14 @@
+cython
+dask
+#git+https://github.com/dask/dask.git#egg=dask[complete]
+#git+https://github.com/blaze/castra.git#egg=castra
+castra
+numpy
+toolz
+dill
+pandas
+partd
+blaze
+graphviz
+scikit-image
+bokeh

@@ -1,0 +1,8 @@
+matplotlib
+numpy
+scipy
+seaborn
+prettyplotlib
+setuptools
+numba
+chemview

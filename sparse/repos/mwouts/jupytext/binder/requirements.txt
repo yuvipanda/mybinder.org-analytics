@@ -1,0 +1,6 @@
+jupytext
+plotly
+matplotlib
+pandas
+wbdata
+bash_kernel

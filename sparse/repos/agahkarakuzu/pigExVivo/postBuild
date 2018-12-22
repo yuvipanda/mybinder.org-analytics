@@ -1,0 +1,11 @@
+#!/bin/bash
+
+jupyter nbextension enable --py --sys-prefix ipyleaflet
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable codefolding/main
+jupyter nbextension enable zenmode/main
+jupyter nbextension enable runtools/main
+jupyter nbextension enable collapsible_headings/main
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable init_cell/main

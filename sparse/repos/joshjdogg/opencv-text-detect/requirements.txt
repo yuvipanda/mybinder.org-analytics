@@ -1,0 +1,6 @@
+opencv-python
+imutils
+matplotlib
+dhash
+pillow
+seaborn

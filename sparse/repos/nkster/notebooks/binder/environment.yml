@@ -1,0 +1,14 @@
+name: my-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - r-essentials
+  - scikit-learn
+  - ipywidgets
+  - beakerx
+  - ipyparallel
+  - pyspark

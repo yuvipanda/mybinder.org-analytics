@@ -1,0 +1,5 @@
+# requirements.txt is installed with cwd at the project root
+#
+-e .
+cairocffi
+pycairo

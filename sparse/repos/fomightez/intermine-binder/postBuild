@@ -1,0 +1,9 @@
+# Based on https://github.com/EWouters/2to3_cell 
+# and 
+# https://github.com/binder-examples/jupyter-extension/blob/master/postBuild
+
+#jupyter contrib nbextension install --user
+jupyter nbextension install https://github.com/EWouters/2to3_cell/archive/master.zip --user
+jupyter nbextension enable 2to3_cell-master/2to3_cell
+
+

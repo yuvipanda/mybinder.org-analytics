@@ -1,0 +1,10 @@
+name: simulate
+dependencies:
+  - python
+  - pandas
+  - numpy
+  - h5py
+  - msprime
+  - pip:
+    - toytree
+    - toyplot

@@ -1,0 +1,8 @@
+networkx==2.2
+numpy==1.14.2
+numpydoc==0.7.0
+joblib==0.11
+matplotlib==2.2.3
+scikit-learn==0.19.1
+scipy>=0.15.1
+

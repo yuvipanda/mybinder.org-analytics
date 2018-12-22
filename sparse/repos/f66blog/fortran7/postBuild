@@ -1,0 +1,3 @@
+#!/bin/bash
+pip install -e ./jupyter-gfort-kernel
+jupyter kernelspec install ./jupyter-gfort-kernel/gfort_spec --user

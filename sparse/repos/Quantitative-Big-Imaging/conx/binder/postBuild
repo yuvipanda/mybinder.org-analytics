@@ -1,0 +1,34 @@
+#!/bin/bash
+
+jupyter nbextension enable --py widgetsnbextension
+
+# run matplotlib once to generate the font cache
+python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
+
+python -c "import conx as cx; cx.Dataset.get('mnist')"
+python -c "import conx as cx; cx.Dataset.get('cifar10')"
+python -c "import conx as cx; cx.Dataset.get('cmu_faces_full_size')"
+python -c "import conx as cx; cx.Dataset.get('cmu_faces_half_size')"
+python -c "import conx as cx; cx.Dataset.get('cmu_faces_quarter_size')"
+jupyter trust notebooks/*.ipynb
+# nice calysto notebook extensions
+git clone https://github.com/Calysto/notebook-extensions.git
+cd notebook-extensions
+jupyter nbextension install calysto --user
+cd ..
+jupyter nbextension enable calysto/document-tools/main
+jupyter nbextension enable calysto/cell-tools/main
+jupyter nbextension enable calysto/spell-check/main
+jupyter nbextension enable calysto/publish/main
+jupyter nbextension enable calysto/submit/main
+jupyter nbextension enable calysto/annotate/main
+
+# enable appmode for nice demos
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter nbextension     enable --py --sys-prefix appmode
+jupyter serverextension enable --py --sys-prefix appmode
+
+# check installation
+jupyter nbextension list

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+set -e
+
+mkdir -p \
+	$HOME/Downloads \
+	$HOME/go
+
+
+echo "::: unzip test data..."
+cd $HOME/Downloads
+unzip ../testdata/shell-novice-data.zip
+cd ..
+
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
+go get -u -v golang.org/x/tools/cmd/goimports
+
+cat >> $HOME/.setup-go << EOF
+## setup Go
+export GOPATH=$GOPATH
+export PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH
+EOF
+
+cat >> $HOME/.bashrc << EOF
+. ~/.setup-go
+
+## PS1
+export PS1='$> '
+EOF
+
+/bin/rm -rf	testdata conda-bld apt.txt requirements.txt postBuild .git

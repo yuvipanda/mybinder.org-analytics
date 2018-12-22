@@ -1,0 +1,9 @@
+novnc
+websockify
+tightvncserver
+xfonts-base
+xterm
+openbox
+supervisor
+x11-xserver-utils
+xinit

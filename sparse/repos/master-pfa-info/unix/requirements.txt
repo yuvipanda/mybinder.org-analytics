@@ -1,0 +1,3 @@
+## install some packages for Python-3
+numpy
+matplotlib

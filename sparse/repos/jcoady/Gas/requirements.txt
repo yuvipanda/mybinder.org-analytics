@@ -1,0 +1,6 @@
+numba
+cython
+scipy
+sklearn
+matplotlib
+vpython>=7.3.2

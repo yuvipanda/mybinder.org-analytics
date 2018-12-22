@@ -1,0 +1,3 @@
+pandoc
+cowsay
+fortune

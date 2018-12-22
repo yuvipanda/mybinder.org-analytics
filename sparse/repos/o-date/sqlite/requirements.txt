@@ -1,0 +1,3 @@
+sqlitebiter
+pandas
+matplotlib

@@ -1,0 +1,7 @@
+numba
+numpy
+pydgrid
+scipy
+pandas
+matplotlib
+bokeh

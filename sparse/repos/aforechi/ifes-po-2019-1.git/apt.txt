@@ -1,0 +1,10 @@
+octave
+gnuplot
+wget 
+pkg-config 
+build-essential 
+cmake 
+autoconf 
+libtool 
+zlib1g-dev 
+lsb-release

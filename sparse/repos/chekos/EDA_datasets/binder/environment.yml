@@ -1,0 +1,12 @@
+name: eda-data
+channels:
+  - conda-forge
+dependencies:
+  - python==3.6.7
+  - altair==2.2.2
+  - vega==1.4.0
+  - vega_datasets==0.6.0
+  - pandas==0.23.4
+  - pip:
+    - matplotlib==3.0.2
+    - jupyterlab_templates

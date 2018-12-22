@@ -1,0 +1,13 @@
+#python dependencies
+altair
+ipywidgets
+matplotlib
+notebook
+numpy
+pandas
+plotly
+scikit-learn
+scipy
+seaborn
+vega
+

@@ -1,0 +1,13 @@
+install.packages("pacman")
+install.packages("tidyverse")
+install.packages("dygraphs")
+install.packages("xlsx")
+install.packages("xts")
+install.packages("zoo")
+install.packages("hash")
+install.packages("htmlwidgets")
+install.packages("htmltools")
+install.packages("webshot")
+install.packages("foreach")
+install.packages("doParallel")
+

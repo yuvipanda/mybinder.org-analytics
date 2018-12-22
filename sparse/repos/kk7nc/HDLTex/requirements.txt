@@ -1,0 +1,8 @@
+matplotlib>=2.1.2
+numpy>=1.12.1
+pandas>=0.22.0
+scipy
+tensorflow
+keras
+scikit-learn
+nltk>=3.2.4

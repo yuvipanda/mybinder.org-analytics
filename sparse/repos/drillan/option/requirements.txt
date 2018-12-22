@@ -1,0 +1,8 @@
+jupyter
+matplotlib
+pandas
+scipy
+seaborn
+statsmodels
+ivolat3
+jpxtime3

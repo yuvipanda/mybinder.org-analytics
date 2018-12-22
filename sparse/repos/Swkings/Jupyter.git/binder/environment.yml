@@ -1,0 +1,12 @@
+dependencies:
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - julia
+      - pandas
+      - scipy
+      - scikit-learn
+      - urllib3
+      - beautifulsoup4
+      - requests

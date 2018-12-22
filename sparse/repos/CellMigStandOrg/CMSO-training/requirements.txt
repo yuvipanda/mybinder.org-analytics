@@ -1,0 +1,6 @@
+biotracks==0.4.1
+isatools
+pandas
+seaborn
+tabulator
+xlrd

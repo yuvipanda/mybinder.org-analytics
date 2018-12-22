@@ -1,0 +1,13 @@
+git clone https://github.com/LASzip/LASzip.git
+cd LASzip
+git checkout 3.1.0
+cmake .
+make
+sudo make install
+cd ..
+wget http://lastools.org/download/LAStools.zip
+unzip LAStools.zip
+cd LAStools
+make
+# cp bin/laszip /usr/local/bin
+# ln -s /usr/local/bin/laszip /usr/local/bin/laszip-cli

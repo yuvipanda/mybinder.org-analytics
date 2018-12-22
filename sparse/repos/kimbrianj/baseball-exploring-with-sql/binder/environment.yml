@@ -1,0 +1,6 @@
+name: baseball-exploration
+channels:
+  - conda-forge
+dependencies:
+  - ipywidgets
+  - beakerx

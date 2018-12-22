@@ -1,0 +1,7 @@
+IPython
+ipywidgets
+holoviews
+bokeh
+matplotlib
+scipy
+pyparsing

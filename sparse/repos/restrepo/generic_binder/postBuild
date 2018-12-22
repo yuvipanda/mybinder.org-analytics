@@ -1,0 +1,5 @@
+jupyter nbextension enable --py widgetsnbextension
+python -m bash_kernel.install
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+# jupyter trust index.ipynb

@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scipy
+pandas
+graphviz
+svglib
+jupyter_contrib_nbextensions

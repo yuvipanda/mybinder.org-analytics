@@ -1,0 +1,6 @@
+matplotlib
+plotly
+pandas
+dask
+scipy
+wand

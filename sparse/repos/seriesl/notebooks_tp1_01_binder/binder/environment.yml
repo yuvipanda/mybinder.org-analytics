@@ -1,0 +1,5 @@
+name: tp1_01
+dependencies:
+    - numpy
+    - scipy
+    - bokeh

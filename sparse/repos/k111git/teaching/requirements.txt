@@ -1,0 +1,7 @@
+numpy
+matplotlib
+ipywidgets
+matplotlib
+numpy
+sympy
+scipy

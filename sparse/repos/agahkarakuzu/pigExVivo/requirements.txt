@@ -1,0 +1,10 @@
+traitlets>=4.3.1
+ipython
+pandas
+numpy
+plotly
+scipy
+seaborn
+ipywidgets 
+matplotlib
+ipyleaflet

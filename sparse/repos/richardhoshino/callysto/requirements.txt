@@ -1,0 +1,9 @@
+numpy
+matplotlib
+plotly
+pandas
+display
+IPython
+grinpy
+xlrd
+scipy

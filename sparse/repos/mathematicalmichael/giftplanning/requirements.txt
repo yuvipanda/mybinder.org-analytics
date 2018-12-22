@@ -1,0 +1,4 @@
+cbayes
+pyyaml
+ipywidgets
+nbinteract

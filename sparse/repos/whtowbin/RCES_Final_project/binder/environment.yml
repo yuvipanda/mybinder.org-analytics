@@ -1,0 +1,14 @@
+name: RCES_Final
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6    # Python version 3.6
+    - ipython       # IPython interpreter and tools
+    - jupyter       # Jupyter federation architecture
+    - jupyterlab    # Jupyter Lab environment
+    - matplotlib    # 2D plotting library
+    - numpy         # N-d array and numerics
+    - pandas        # Labeled array library
+    - scipy         # Common math/stats/science functions
+    - seaborn       # Statistical visualizations

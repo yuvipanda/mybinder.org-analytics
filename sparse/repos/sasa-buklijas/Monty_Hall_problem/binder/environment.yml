@@ -1,0 +1,5 @@
+channels:
+  - conda-forge
+dependencies:
+#  - ipyvolume # may I do not need it
+  - appmode # 0.4.0 version was fine

@@ -1,0 +1,4 @@
+SLUGIFY_USES_TEXT_UNIDECODE=yes pip install --no-cache-dir apache-airflow
+
+pip install https://github.com/jupyterhub/nbserverproxy/archive/master.zip
+jupyter serverextension enable --py nbserverproxy

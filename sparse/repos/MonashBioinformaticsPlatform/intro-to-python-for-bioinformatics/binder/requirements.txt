@@ -1,0 +1,7 @@
+numpy
+nglview
+RISE
+
+# scikit-bio needs numpy installed *first* and will fail here
+# We install it in the postBuild script instead.
+# scikit-bio==0.5.1

@@ -1,0 +1,1 @@
+numpy==1.14.0 plotly==2.7.0 matplotlib==2.1.2 ipywidgets==7.1.1

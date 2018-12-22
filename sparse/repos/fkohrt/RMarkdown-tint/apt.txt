@@ -1,0 +1,12 @@
+texlive-base
+texlive-binaries
+texlive-fonts-extra
+texlive-fonts-recommended
+texlive-generic-recommended
+texlive-humanities
+texlive-latex-base
+texlive-latex-extra
+texlive-latex-recommended
+texlive-pictures
+dvipng
+ghostscript

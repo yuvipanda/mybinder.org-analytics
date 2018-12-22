@@ -1,0 +1,6 @@
+dfkernel
+scikit-learn[alldeps]
+matplotlib
+pandas
+numpy
+
